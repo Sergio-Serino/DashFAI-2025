@@ -18,7 +18,7 @@ st.set_page_config(layout="wide") # Opcional: para usar a largura total da tela
 ###
 
 # Leitura do Banco de Dados
-caminho_arquivo = 'C:/Users/sseri/Downloads/Tabela_Dados.xlsx'
+caminho_arquivo = 'Tabela_Dados.xlsx'
 df = pd.read_excel(caminho_arquivo, engine='openpyxl')
 
 
